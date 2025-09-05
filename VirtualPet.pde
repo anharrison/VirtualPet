@@ -1,5 +1,10 @@
-size(640,480);
+void setup()
+{
 noStroke();
+size(640,480);
+}
+void draw()
+{
 //Background
 fill(20,170,255);
 rect(0,0,640,380);
@@ -53,4 +58,4 @@ ellipse(380, 222, 5, 5);  // Whisker dots
 // Nose
 fill(100, 20, 30);
 triangle(415, 220, 400, 200, 430, 200); 
-
+}
